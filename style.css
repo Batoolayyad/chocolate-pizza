@@ -1,4 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    padding:20px;
+}
+
+
+/*
+.header {
+    display: inline-block;
+}
+ .header nav ul li{
+ display: inline-block;
+ }
+
+ .header nav ul li:nth-child(3){
+     float: right;
+     padding-right: 40%;
+ }
+*/
+
+header {
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+
+
+nav ul  {
+    position: relative;
+
+}
+nav ul li {
+display: inline-block;
+padding: 3px;
+
+}
+#firtList {
+    float: left;
+    
+}
+#secList{
+    float: right;
+}
+
+.hr{
+    padding-top: 20px;
+}
+.inline{
+    display: inline-block;
+}
+#print{
+float: right;
+
+}
+#inlineP {
+    float: left;
+
+}
+.hrao{
+    width: 100%;
+}
+#heroImg{
+    width: 100%;
+}
+
+.mid{
+    display:inline-block;
+    width: 100%;
+    padding-left: 10%;
+}
+
+#check-left {
+    float: left;
+    
+    
+}
+
+#check-right {
+    float: right;
+    
+}
+.par-main{
+    margin-bottom: 50px;
+}
+
+.mid{
+    background-image: url("/img/list-bg.png");
+
+}
+
+#granulated{
+
+    text-decoration: line-through;
+}
+#egg{
+
+    text-decoration: line-through;
+}
+
+
+.foot-up{
+    display: inline-block;
+    width: 100%;
+    padding:10px;
+}
+
+#footH2{
+
+    float: left;
+}
+#footImg
+{
+    float: left;
+}
 
 
 
+.foot-down{
+    margin: 30;
+}
+#lastImg{
+    text-align: center;
+}
 
+#btn{
+    background-color:#BC7058;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float:right;
+}
